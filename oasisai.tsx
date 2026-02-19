@@ -1,9 +1,9 @@
 
-import React, { useState } from 'react';
-import { GoogleGenAI } from "@google/genai";
+import react, { useState } from 'react';g
+import { googlegenai } from "@google/genai";
 import { Search, Image as ImageIcon, Sparkles, Globe, ExternalLink, Loader2, Maximize2, Wand2, ShieldCheck, Key } from 'lucide-react';
 
-const OasisAI: React.FC = () => {
+const oasisai: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<{ text: string; links: any[] } | null>(null);
   const [isSearching, setIsSearching] = useState(false);
@@ -251,4 +251,4 @@ const OasisAI: React.FC = () => {
   );
 };
 
-export default OasisAI;
+export default oasisai;
