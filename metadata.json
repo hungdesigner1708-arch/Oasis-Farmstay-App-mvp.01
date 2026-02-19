@@ -1,0 +1,7 @@
+{
+  "name": "Oasis Farmstay",
+  "description": "A luxury agricultural investment platform powered by blockchain technology, allowing transparent micro-investments in livestock and crops.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
