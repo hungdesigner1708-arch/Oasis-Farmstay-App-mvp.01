@@ -1,22 +1,22 @@
 
-import React, { useState } from 'react';
+import react, { useState } from 'react';
 import { UserRole, FarmAsset, WalletInfo, MembershipTier } from './types';
 import { MOCK_ASSETS, MOCK_TRANSACTIONS } from './constants';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import Dashboard from './components/Dashboard';
-import AssetGrowth from './components/AssetGrowth';
-import Marketplace from './components/Marketplace';
-import Wallet from './components/Wallet';
-import AdminPanel from './components/AdminPanel';
-import Store from './components/Store';
-import Resort from './components/Resort';
-import LiveFarm from './components/LiveFarm';
-import FarmLogs from './components/FarmLogs';
-import Referral from './components/Referral';
-import Explore from './components/Explore';
-import OasisAI from './components/OasisAI';
-import MiniGame from './components/MiniGame';
+import sidebar from './components/sidebar';
+import header from './components/header';
+import dashboard from './components/dashboard';
+import assetgrowth from './components/assetgrowth';
+import marketplace from './components/marketplace';
+import wallet from './components/wallet';
+import adminpanel from './components/adminpanel';
+import store from './components/store';
+import resort from './components/resort';
+import livefarm from './components/liveFarm';
+import farmLogs from './components/farmlogs';
+import referral from './components/referral';
+import explore from './components/explore';
+import oasisai from './components/oasisai';
+import miniGame from './components/minigame';
 
 const App: React.FC = () => {
   const [role, setRole] = useState<UserRole>(UserRole.ADMIN);
