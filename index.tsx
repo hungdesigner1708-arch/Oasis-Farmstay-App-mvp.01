@@ -1,9 +1,7 @@
 
-import react from 'react';
+import React from 'react';
 import { createRoot } from 'react-dom/client';
-import oasisai from './oasisai'; // Gọi trực tiếp file oasisai.tsx
-// Chú ý: Nếu bạn không có file index.css, hãy xóa dòng dưới đây
-// import './index.css'; 
+import OasisAI from './oasisai'; // Gọi trực tiếp oasisai.tsx của bạn
 
 const container = document.getElementById('root');
 if (container) {
